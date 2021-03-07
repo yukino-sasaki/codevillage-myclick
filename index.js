@@ -23,11 +23,11 @@ reset.addEventListener('click', () => {
     limit.textContent = "5"
     button.disabled = false
     clearInterval(settime)
-    sec = 5
+    sec = 20
 })
 
 //カウントダウンタイマー
-var sec = 5;
+var sec = 20;
 
 const limit = document.querySelector('.limit')
 //スタートを押したら起動する
@@ -40,7 +40,7 @@ start.addEventListener('click', () => {
 /* 何をしてエラーが起きたのか
 書き方 */
 
-const add = 1 + 2;
+
 
 const timelimit = () => {
     settime = setInterval(function () {
